@@ -1,0 +1,178 @@
+body{
+    margin: 0px auto;
+    text-align: center;
+    background-image: url(images/background1.jpg);
+    background-attachment: fixed;
+}
+#top{
+    width: 100%;
+    height: 120px;
+    background-color: rgb(235, 189, 175);
+}
+#logo{
+    width: 200px;
+    height: 50px;
+    margin-left: 200px;
+    float: left;
+
+}
+#welcome{
+    width: 260px;
+    height: 30px;
+    float: right;
+    margin-right: 200px;
+}
+#welcome p{
+    line-height: 5px;
+}
+#nav{
+    width: 100%;
+    height: 30px;
+    float: left;
+    margin-top: 30px;
+}
+#navCenter{
+    width: 1200px;
+    height: auto;
+    margin: 0px auto;
+}
+#navCenter ul{
+    list-style: none;
+    background-attachment: #08e7f7;
+    height: auto;
+}
+
+#navCenter li{
+    float: left;
+    padding-left: 100px;
+    font-weight: 300;
+    line-height: 3px;
+    color: rgb(28, 227, 241);
+    list-style: none;
+}
+#navCenter li a:link{
+    color: rgb(22, 235, 206);
+    text-decoration: none;
+}
+#navCenter li a:hover{
+    background-color: rgb(10, 211, 218);
+    text-decoration: none;
+}
+#navCenter li a:active{
+    color: rgb(29, 236, 174);
+}
+
+#container{
+    width: 1100px;
+    height: auto;
+    margin: 0px auto; 
+}
+#main{
+    background: url(http://n1-q.mafengwo.net/s7/M00/20/10/wKgB6lQpPCOAVawtAAWVrACTBHo31.jpeg?imageMogr2%2Fthumbnail%2F%21337x450r%2Fgravity%2FCenter%2Fcrop%2F%21337x450%2Fquality%2F90%7Cwatermark%2F1%2Fimage%2FaHR0cDovL3AxLXEubWFmZW5nd28ubmV0L3M4L00wMC82Mi83OS93S2dCcFZodUN6Q0FJa3RIQUFBTkc4TDlCUU0xNjAucG5n%2Fgravity%2FNorthWest%2Fdx%2F20%2Fdy%2F21);
+    width: 1100px;
+    margin: 0px auto;
+    margin-top: 5px;
+}
+#main img{
+    margin-left: 700px;
+}
+#mainBottom{
+    width: 1100px;
+    height: auto;
+}
+#mainBottomLeft{
+    width: 300px;
+    height: 350px;
+    margin-top: 50px;
+    background-color: rgb(16, 240, 202);
+    float: left;
+    margin-left: 40px;
+}
+#mainBottomLeft p{
+    font-size: 20px;
+    line-height: 10px;
+    font-family: 宋体;
+    font-weight: 900;
+    text-shadow: 0 0 2px rgb(41, 141, 32);
+}
+#mainBottomLeft tr{
+    margin-top: 20px;
+    display: inline-block;
+    margin-top: 20px;
+    padding: 0;
+    float: right;
+}
+#buttonSubmit{
+    width: 80px;
+    background-color: rgb(118, 101, 192);
+    margin-right: 50px;
+}
+#butttonFound{
+    width: 80px;
+    background-color: rgb(123, 193, 214);
+    margin-right: 10px;
+}
+#mainBottomCenter{
+    width: 300px;
+    height: 350px;
+    margin-top: 50px;
+    margin-left: 60px;
+    background-color: rgb(111, 163, 194);
+    float: left;
+}
+#mainBottomCenter p{
+    font-size: 20px;
+    font-family: 宋体;
+    font-weight: 900;
+    text-shadow: 0 0 2px rgb(87, 155, 123);
+}
+#mainBottomCenter a{
+    font-size: 12px;
+}
+#mainBottomRight{
+    width: 300px;
+    height: 350px;
+    margin-top: 50px;
+    margin-left: 60px;
+    background-color: rgb(72, 151, 131);
+    float: left;
+}
+#mainBottomRight p{
+    font-size: 20px;
+    font-family: 宋体;
+    font-weight: 900;
+    text-shadow: 0 0 2px rgb(48, 146, 130);
+}
+#mainBottomRightMain{
+    width: 250px;
+    height: 150px;
+    font-size: 12px;
+    margin-left: 25px;
+    margin-top: 20px;
+}
+#viewIntroduce{
+    width: 1100px;
+    margin-left: 0px;
+    margin-top: 50px;
+    background-color: rgb(38, 160, 182);
+    float: left;
+}
+fontType{
+    font-size: 30px;
+    font-family: 楷体;
+    text-shadow: 0 0 2px rgba(17, 248, 237, 0.596);
+    text-align: center;
+
+}
+#viewIntroduce p{
+    text-indent: 15px;
+    text-align-last: left;
+    font-size: 12px;
+    font-family: 宋体；
+}
+#foot{
+    width: 1100px;
+    float: left;
+    background-color: rgb(17, 247, 247);
+    margin-top: 5px;
+}

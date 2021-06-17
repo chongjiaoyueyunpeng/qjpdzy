@@ -1,0 +1,219 @@
+body{
+    margin: 0px auto;
+    text-align: center;
+    background-image: url(images/background1.jpg);
+    background-attachment: fixed;
+}
+#top{
+    width: 100%;
+    height: 120px;
+    background-color: rgb(132, 155, 197);
+    background-attachment: fixed;
+    position: fixed;
+}
+#logo{
+    width: 200px;
+    height: 50px;
+    margin-left: 200px;
+    float: left;
+    background-attachment: fixed;
+    position: relative;
+}
+#welcome{
+    width: 260px;
+    height: 30px;
+    float: right;
+    margin-right: 200px;
+    background-attachment: fixed;
+}
+#welcome p{
+    line-height: 5px;
+}
+#nav{
+    width: 100%;
+    height: 30px;
+    float: left;
+    margin-top: 30px;
+    background-attachment: fixed;
+}
+#navCenter{
+    width: 1200px;
+    height: auto;
+    margin: 0px auto;
+}
+#navCenter ul{
+    list-style: none;
+    background-attachment: #6c8bc4;
+    height: auto;
+}
+
+#navCenter li{
+    float: left;
+    padding-left: 100px;
+    font-weight: 300;
+    line-height: 3px;
+    color: rgb(93, 182, 209);
+    list-style: none;
+}
+#navCenter li a:link{
+    text-decoration: none;
+}
+#navCenter li a:hover{
+    background-color: rgb(84, 130, 168);
+    text-decoration: none;
+}
+#navCenter li a:active{
+    color: rgb(82, 157, 187);
+}
+
+#container{
+    width: 1100px;
+    height: auto;
+    margin: 0px auto; 
+}
+#containerLleft{
+    width: 750px;
+    float: left;
+    margin-top: 30px;
+}
+#tag{
+    width: 1100px;
+    height: 100px;
+    text-align: left;
+    line-height: 10px;
+    float: left;
+}
+#tag p.small{
+    font-size: 10px;
+    color: rgb(92, 160, 192);
+}
+#tag p.big{
+    font-size: 30px;
+    font-family: 黑体,宋体；
+}
+#mainPicture{
+    width: 750px;
+    float: left;
+}
+#introduce{
+
+    width: 750px;
+    height: 200px;
+    float: left;
+
+}
+#introduce p.title{
+    font-size: 25px;
+    font-weight: 400;
+    color: cadetblue;
+    line-height: 5px; 
+    text-align: left;
+    margin-bottom: 2px;
+}
+#introduce p.text{
+    font-size: 15pxpx;
+    font-weight: 400;
+    color: cadetblue; 
+    text-align: left;
+    margin-top: 10px;
+}
+#recommend{
+    width: 750px;
+    float: left;  
+    padding: 2px;
+}
+#recommendLeft{
+    width: 250px;
+    float: left;
+    margin-top: 15px;
+
+}
+#recommendRight{
+    width: 450px;
+    margin-left: 10px;
+    float: left;
+}
+#recommendRight p.title{
+    font-size: 25px;
+    text-align: left;
+}
+#recommendRight p.text{
+    font-size: 12px;
+    text-align: left;
+    line-height: 20px;
+}
+#containerRight{
+    width: 200px;
+    margin-left: 10px;
+    float: left;
+    margin-top: 75px;
+}
+#page{
+    width: 200px;
+    height: 30px;
+    border-bottom: 1px solid rgb(75, 117, 173);
+}
+#page p{
+    font-size: 15px;
+    text-align: left;
+    letter-spacing: 5px;
+}
+#paihang{
+    width: 300px;
+    float: left;
+    margin-top: 10px;
+}
+#paihangLeft{
+    width: 150px;
+    float: left;
+}
+#paihangRight{
+    width: 100px;
+    float: left;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+#paihangRight p.title{
+    font-size: 15px;
+    font-weight: 800;
+    font-family: 黑体;
+    color: rgb(55, 164, 197);
+    line-height: 5px;
+    text-align: left;
+}
+#paihangRight p.text{
+    font-size: 10px;
+    color: rgb(74, 163, 190);
+    text-align: left;
+    letter-spacing: 2px;
+}
+#commenTitle{
+    width: 750px;
+    border-bottom: 1px solid rgb(58, 169, 197);
+    float: left;
+    margin-top: 30px;
+    text-align: left;
+}
+#commenTitle p{
+    color: rgb(68, 153, 187);
+    font-display: 20px;
+    font-family: 黑体;
+
+}
+#commment{
+    width: 750px;
+    border-top:  1px solid rgb(72, 182, 173);
+    border-bottom: 1px solid rgb(90, 126, 204);
+    float: left;  
+    padding: 2px;
+}
+#footer{
+    width: 100%;
+    float: left;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+#footer p{
+    font-size: 12px;
+    color: rgb(75, 127, 187);
+}
